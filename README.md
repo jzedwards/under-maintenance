@@ -6,4 +6,5 @@ Web site published on localhost:9999
 I use NPM (nginx proxy manager) to redirect my domains to this page
 (cc) 2024 https://www.jzedward.com
 
-Action added to ftp to x10hosting on push
+Action added to ftp to x10hosting on push user FTP Deploy
+https://github.com/SamKirkland/FTP-Deploy-Action#badge
