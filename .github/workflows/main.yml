@@ -11,9 +11,9 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: jzedward.x10host.com
-        username: ${{ secrets.x10username }}
-        password: ${{ secrets.x10password }}
-        dry-run: false
-        server-dir: domains/jzedward.x10host.com/public_html/
+        server: ftpupload.net
+        username: ${{ secrets.infinityfreeusername }}
+        password: ${{ secrets.infinityfreepassword }}
+        dry-run: true
+        server-dir: htdocs/
         local-dir: ./html/ 
